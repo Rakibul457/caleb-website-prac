@@ -1,0 +1,13 @@
+@media  (min-width:320px) and (max-width:575px){
+    .card{
+        width: 95vw !important;
+
+    }
+
+    .hero-img img{
+        width: 100%n !important;
+    }
+    .hero{
+        width: 100%;
+    }
+}

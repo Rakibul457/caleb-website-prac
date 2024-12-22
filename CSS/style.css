@@ -1,0 +1,518 @@
+/* common css */
+body{
+    font-family: "Poppins",sans-serif;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    
+    
+}
+li{
+    font-family: "Poppins",sans-serif;
+    font-weight: 700;
+
+}
+/* common css end */
+
+
+
+/* navbar css start */
+
+.navbar-brand {
+    font-family: "Imperial Script", cursive;
+    
+  }
+  #logo{
+    font-size: 40px;
+    font-weight: 700;
+    color:orange ;
+  }
+ 
+  .nav-item a{
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  /* Hero Part start */
+
+  .hero-left{
+    padding: 40px;
+  }
+
+  .hero-left h1{
+    font-family: "Poppins",sans-serif;
+    /* font-weight: 511px;
+    height: 84px; */
+
+  }
+  .hero-left p{
+    font-family: "Poppins",sans-serif;
+    /* width: 609px;
+    height: 108px;
+    margin-top: px; */
+  }
+  .card{
+    width: 497px;
+    /* height: 100px; */
+    margin-top: 50px;
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+    padding: 14px 32px 10px 19px;
+    margin-left: 25px;
+  }
+  .card-middle{
+    margin:15px 15px;
+    width: 387px;
+  }
+   .card p{
+    font-family: "Poppins",sans-serif;
+    margin-top: 16px;
+  } 
+  .card-img{
+    display: flex;
+
+  } 
+  .card-img img{
+    width: 18%;
+
+    height: 100%;
+    margin-bottom:10px ;
+
+  } 
+  .profile-name{
+    margin-left: 20px;
+  }
+
+  .hero-img{
+    width: 613px;
+    height: 572px;
+    margin-left: 35px;
+  }
+  /* hero part end */
+
+  #about{
+    margin-top: 40px;
+  }
+  .about-ditails{
+    margin-top: 100px;
+    margin-left: 100px;
+  }
+  .about-ditails p{
+    font-family: "Poppins",sans-serif;
+    width: 639px;
+    height: 162px;
+  }
+  .about-ditails h6{
+    font-family: "Poppins",sans-serif;
+   color: orange;
+  }
+  .about-left{
+    margin-left: 80px;
+   
+  }
+  .about-last1{
+    display: flex;
+    margin-left: 100px;
+  }
+  .about-last1 h6{
+    color: orange;
+    margin-left: 8px;
+  }
+  .icon1 i{
+   font-size: 50px;
+  }
+  .about-last1 p{
+    margin-left: 8px;
+  }
+
+  .about-last2{
+    display: flex;
+    margin-left: 100px;
+  }
+  .about-last2 h6{
+    color: orange;
+    margin-left: 9px;
+  }
+  .about-last2 p{
+    margin-left: 8px;
+  }
+  .icon2 i{
+    font-size: 50px;
+   }
+  .about-last3{
+    display: flex;
+    margin-left: 110px;
+    margin-top: 25px;
+  }
+  .about-last3 h6{
+    color: orange;
+    margin-left: 8px;
+  }
+  .about-last3 p{
+    margin-left: 8px;
+  }
+  .icon3 i{
+    font-size: 50px;
+   }
+  .card-icon{
+    display: flex;
+  }
+  
+  .last-button{
+    margin-left: 100px;
+    margin-top: 30px;
+  }
+
+  /* service start */
+  .service-main{
+    display: flex;
+    margin-left: 100px;
+  }
+  .service-title{
+    text-align: center;
+  }
+  .service-title p{
+    color: orange;
+  }
+  .service1{
+    padding: auto;
+  }
+  .case-card1{
+    margin-top: 40px;
+    margin-left: 0px;
+  }
+  #case-card{
+    margin-top: 40px;
+    margin-left: 0px;
+  }
+  /* service end */
+  
+  .case-card2{
+    margin-left: 200px;
+    margin-top: 100px;
+  }
+  .case-card2 p{
+    width: 484px;
+  }
+  .case-card2 button{
+    background-color: white;
+    border: 1px solid orange;
+    color: orange; 
+  }
+  .case-card2 button:hover{
+    background-color: orange;
+    color: white;
+  }
+
+  .case-title{
+    text-align: center;
+    margin-top: 50px;
+    
+  }
+  .case-title p{
+    color: orange;
+    font-weight: 700;
+
+  }
+  .case-card3{
+    margin-right: 40px;
+    margin-left: 10px;
+    margin-top: 40px;
+    
+  }
+  .case-card3 p{
+    width: 486px;
+    
+  }
+  .case-card4 img{
+    margin-left: 60px;
+
+  }
+  .case-flex{
+    display: flex;
+  }
+  /* case end */
+
+  /* people start */
+  .people-flex{
+    display: flex;
+    margin-top: 0px;
+    justify-content: space-between;
+  }
+
+  #people-img{
+    margin-top: 100px;
+  }
+
+  .people-flex2{
+    display: flex;
+    margin-bottom: 0px;
+    justify-content: space-between;
+  }
+  #people-img2{
+    margin-top: 30px;
+  }
+  /* people part end */
+
+  /* hard part start */
+  /* #hard-part{
+    margin-top: 80px;
+  } */
+   
+ 
+   
+  .hard-title{
+    text-align: center;
+    margin-top: 0px;
+  }
+  .hard-img-m{
+    margin-bottom: 150px;
+  }
+  .color-box{
+    margin-top: 100px;
+  }
+
+  .hard-img-main{
+    display: flex;
+  }
+
+  #service-box{
+    margin-top: 100px;
+  }
+
+  .box-right{
+    margin-left: 945px;
+    margin-bottom: 100px;
+    margin-top: -210px;
+  }
+  .box-middle{
+    margin-bottom: 100px;
+  }
+  .box-coment{
+    background-color: white;
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+    width: 790px;
+    height: 215px;
+    margin-top: -122px;
+  }
+  .box-mini{
+    width: 212px;
+    height: 70px;
+    background-color: orange;
+    margin-top: -196px;
+    margin-left: -122px;
+    border-radius: 15px;
+  }
+
+  .box-ditails{
+    text-align: center;
+    /* margin-top: -40px; */
+  }
+  .box-coment img{
+    padding-left: 383px;
+    margin-top: -34px;
+    width: 59%;
+    height: 100%;
+  }
+  .box-mini i{
+    margin-top: 30px;
+    
+  }
+  .box-coment{
+       margin-bottom: 100px;
+  }
+  .box-icon{
+    /* width: 70px; */
+     padding-left: -50px;
+  }
+  .box-icon img{
+     margin-left: -350px;
+     width: 0px;
+  }
+  .box-icon2 img{
+  
+   margin-left: 302px;
+  }
+
+  /* hard part */
+  .title-x{
+    text-align: center;
+    margin-top: 100px;
+  }
+  .title-x p{
+    color: orange;
+  }
+
+  .services{
+    margin-bottom: 100px;
+    margin-top: 50px;
+  }
+
+  .s-icon img{
+    margin-left: 1000px;
+    margin-top: -280px;
+  }
+  .service-coment{
+    background-color: white;
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+    width: 790px;
+    height: 215px;
+    margin-top: -122px;
+    border-radius: 20px;
+  }
+  .coment-img img{
+    padding-left: 383px;
+    margin-top: -34px;
+    width: 59%;
+    height: 100%;
+    /* border-radius: 10px; */
+  }
+  .service-two{
+    width: 212px;
+    height: 90px;
+    background-color: orange;
+    margin-top: -116px;
+    margin-left: -122px;
+    border-radius: 10px;
+  }
+  .service-two i{
+    font-size: 20px;
+    padding-top: 33px;
+    padding-bottom: 45px;
+  }
+  .sot-icon{
+    padding-left: 330px;
+    margin-top: -40px;
+  }
+  .sot-iconx{
+    margin-left: 704px;
+    margin-top: 110px;
+  }
+  .karmani{
+    text-align: center;
+    margin-top: -110px;
+  }
+  .karmani p{
+    width: 522px;
+    margin-left: 130px;
+  }
+  /* hard part end */
+
+  /* logo part start */
+  .logo-main{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+  }
+  .title-y{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 70px;
+  }
+  .title-y p{
+    color: orange;
+  }
+
+  /* logo part end */
+
+  /* input part start */
+  #input{
+    margin-top: 60px; 
+    background-color: rgb(249, 244, 237);
+  }
+  .contact{
+    margin-top: 180px;
+    margin-left: 170px;
+  }
+  .contact h6{
+    width: 453px;
+    margin-left: 18px;
+    margin-bottom: 20px;
+  }
+  .contact h3{
+    margin-left: 28px;
+  }
+  .contact1{
+    display: flex;
+  }
+  .contact1 p{
+    margin-left: 9px;
+  }
+  .contact1 i{
+    margin-top: 5px;
+    margin-right: px;
+    color: orange;
+  }
+  
+  .contact2{
+    display: flex;
+  }
+  .contact2 p{
+    width: 390px;
+    margin-left: 5px;
+  }
+  .contact2 i{
+    margin-top: 5px;
+    margin-right: 8px;
+    color: orange;
+  }
+  .contact3{
+    display: flex;
+  }
+  .contact3 p{
+    margin-left: 3px;
+  }
+  .contact3 i{
+    margin-top: 5px;
+    margin-right: 8px;
+    color: orange;
+  }
+   
+
+
+  .input1{
+    margin-top: 130px;
+    margin-left: 300px;
+    
+  }
+ 
+  .input1 input{
+    width: 300px;
+    height: 57px;
+    border-radius: 10px;
+    padding-left: 15px;
+  }
+  /* input end */
+
+  /* footer start */
+  #footer{
+    margin-top: 0px;
+    background-color: rgb(231, 231, 227);
+  }
+  .footer-main{
+    display: flex;
+    justify-content:space-evenly;
+    padding-top: 100px;
+  }
+  .footer1{
+    /* margin-left: 50px; */
+  }
+  .footer2{
+   /* margin-right: 20px;
+   margin-left: 50px; */
+  }
+  .footer3{
+    /* margin-right: 20px; */
+  }
+  .footer4{
+    /* margin-right: 20px; */
+    /* margin-left: 150px; */
+  }
+  .footer-last{
+    width: 100%;
+    height: 58px;
+    background-color: orange;
+  }
+ 
